@@ -10,7 +10,7 @@ function mergeSort(arr) {
   // create an array of right half
   var rightArr = arr.slice(mid, arr.length)
   // call merge on a recursively called left half and right half
-  return (mergeSort(leftArr), mergeSort(rightArr));
+  return merge(mergeSort(leftArr), mergeSort(rightArr));
 }
 
 

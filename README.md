@@ -116,7 +116,7 @@ There are usually TWO algorithms that work together to accomplish a merge sort:
   *  What smaller subproblems can you solve recursively?  
   *  How will you go from the solutions for subproblems, to a solution for the overall problem?
 
-1. Next, tackle `merge`. This isn't recursive, but edge cases can make it tricky!
+2. Next, tackle `merge`. This isn't recursive, but edge cases can make it tricky!
 
 <!--
 ## Recursion Trees

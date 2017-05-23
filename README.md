@@ -134,8 +134,8 @@ Here's a merge sort recursion tree:
 <img src="http://intra.oxido.tv/wp-admin/includes/recursion-tree-method-for-solving-recurrences-examples-i0.png">
 
 The number of levels is log<sub>2</sub>n, and the work required at each level adds up to O(n).  Recursion trees aren't foolproof - this is a "hand wavey" way to show that the Big O runtime of merge sort is `O(n log(n))`.   Since the work at each level is very, very similar, the recursion tree gives us the correct big O for merge sort!
-
 -->
+
 ## Additional Resources
 
 * [Merge sort on wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
